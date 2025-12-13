@@ -1,0 +1,85 @@
+python is an object oriented , interpreted, , high level programming language , it is general purpose 
+and we use it to develop gui and web application 
+
+with python we can concentratye on  the business logic of our code rahter than spent on common programming tasks 
+
+###  history 
+
+python was created by guido van rossom 
+the initial code was published a s version 0.9 in 1991 and it grew up to version 1 till 1994
+ever wondered why it called as python ?
+it is named after bbc show monty's python flying circus 
+
+#### why python ?
+there are 1000 language then why python ?
+python is simple and easy to learn 
+it has library for almost every thing , django for web application and matplotllib for data visualization 
+it is reliable ,efficient and time saving 
+it has large helpfull and open source community 
+it offeres career opportuity in various field 
+
+#### where can we use python ?
+
+hardware programming 
+respberry pi 
+
+machine learning , ds and deep learning 
+sklearn , tenserflow theano and spark 
+
+web application 
+django , flask and tornado 
+
+cloud and dev ops 
+openstack apis and fabric
+
+desktop application 
+pygtk and cocoa
+
+#### python variable 
+a variable is memory location where we can stoe value ,
+in python the data type will be identified according to data we provide 
+
+a variable should start with letter or underscore but does not start with nmumber 
+there are two way to assigning alue to a vRIABLE 
+1. assigning a single value 
+2. assigning multiple value 
+
+#### python token 
+
+in python every logical  line of code is broken down into component known as token 
+normal token type 
+identifier 
+keywords 
+literals 
+operator 
+
+keyword :
+python keywords are spacial reserve words 
+they convey spacial meaning to compiler or interpreter
+each keyword has special meaning and a specia operation 
+never use it as a variable 
+
+python keyword:
+
+true False None and as 
+Asset def class continue break 
+else finally elif del except 
+global for if from import 
+raise try or return pass 
+nonlocal in not is lambda 
+
+identifier :
+identifier is the name used to identify a vatriable , function , class or object 
+
+no spacial character , except underscore can be used as an identifirer 
+keyword should not be used as identifier 
+python is  case sensitive like "Var" and var has different 
+the first character of identifier either can be underscore or any alphabate 
+
+literals :
+literals are just raw data given to the variable 
+various type of literals :
+string literals
+numeric literals 
+boolean literals 
+special literals 
