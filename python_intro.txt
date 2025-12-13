@@ -83,3 +83,27 @@ string literals
 numeric literals 
 boolean literals 
 special literals 
+'',"".'''   .....'''
+
+numeric literals :
+formed by a character string of digit 0 to 9 , decimal point   , and plus /minus sign 
+numeric literal format 
+int ,long , float , complex 
+
+special literals ;
+special literal in python is None which means that the variable is yet to be initialized 
+
+val2=None 
+print(val2)
+type(val2)
+None 
+NoneType
+
+Operators 
+operator are special symbols that are used to carry out airthmatic logical operation 
+various type of operators 
+airthmatic , assignment , comparison , logical , bitwise , identity , membership 
+identity operator used to check whether the object are same or not 
+is : return ture if both the variable ar esame object 
+and 
+is  not : return true if both the variable are not same object 
