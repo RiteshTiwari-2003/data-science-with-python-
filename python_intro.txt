@@ -107,3 +107,8 @@ identity operator used to check whether the object are same or not
 is : return ture if both the variable ar esame object 
 and 
 is  not : return true if both the variable are not same object 
+
+
+data type in python 
+there are two type of data type in python 
+immutable and mutable : imutable means that can not change and mutable means that can change 
