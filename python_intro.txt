@@ -112,3 +112,83 @@ is  not : return true if both the variable are not same object
 data type in python 
 there are two type of data type in python 
 immutable and mutable : imutable means that can not change and mutable means that can change 
+in immutable these type data type come like  : number , string , tuple 
+mutable type data type : list , dictonery , set 
+
+tuples are a sequence of immutable python objects 
+
+list is a sequence of mutable object 
+
+dictionary 
+an unordered collection of items 
+myDict={1:"Ram",2:"Ajay"}
+empty dictionary : dicyt2={}
+
+set; an unordered collection of immutable data that can not be dublicate 
+
+in python for global variable we allso can use global keyword 
+def myfunc():
+    global x
+    x="fantastic"
+myfunc()
+print("Python is "+x)
+
+python data types 
+built in data types 
+in programming , data type is an importent concept 
+variable can be store data of differnet type and different type can do different thing 
+
+text type ; str
+numeric type : int , float, complex 
+sequence type : list , tuple , range 
+mapping type : dict 
+set type : set, frozenset
+boolean type : bool 
+binarty type : bytes, bytearray, memoryview 
+
+NoneType: NoneType 
+
+#### python number 
+python number has three tyoe 
+int , float , complex 
+
+#### python : modify string 
+a="Hello ! World!"
+print(a.upper())
+
+lower case 
+a="HEEloo World!"
+print(b.lower())
+
+### strip () method in string 
+remove whitespace from string in last and start 
+a="Hello World!"
+print(a.strip())
+
+### repace string 
+a="Hello World!"
+print(a.replace("a","j"))
+
+#### split method 
+the split() method returns a list where the text between the specified seperator become the ist item 
+
+a="Hello World!"
+print(a.split(","))
+
+#### string concatination 
+a="ritesh"
+b="tiwari"
+c=a+b 
+print(c)
+
+format string 
+
+age = 36
+str1=f"My name is john, i am {age}"
+print(txt)
+
+price = 59
+txt= f"the price is {price:.2f} dollors"
+print(tft)
+
+
