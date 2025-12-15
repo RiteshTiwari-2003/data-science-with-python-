@@ -1,0 +1,25 @@
+
+#### *args and **kwargs 
+
+by default a function must be called with the correct nuber of argument ,
+however sometimes you may not know how many argument that will be passed into your function 
+
+*args and **kwargs   allow function to accept a unknown number of argument 
+
+arbitary argument - *args
+if you do not know how many argument will be passed into your function , add a 8 before a parameter 
+
+def my_function(*args):
+    print("The Youngest child is"+kids[2])
+my_function("Email","google","map")
+
+arbitary keywords argument 
+**kwargs 
+
+if you do not know how many keyword argument will be passed into your function add ** (two astericks)
+this way the function will receive a dictionary of argument and can access the item accordingly 
+
+def my_function(**kid):
+print("his last anme "+kid[lname])
+my-function(fname="tobias",lname="references")
+
