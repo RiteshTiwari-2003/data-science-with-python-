@@ -89,3 +89,43 @@ thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
 
+copy list in python 
+
+thisList=["apple","mango","gwawa']
+mylist=thisList.copy()
+print(mylist)
+
+another way to build copy of list to use list() method 
+
+thisList=["apple",'gwawa',"lemon"]
+mylist=list(thisList)
+print(mylist)
+
+### use the slice operator 
+you can also use slice operator (:)
+like 
+list1=["banana","mango","papaya"]
+myList=list1[:]
+print(myList)
+
+#### python join list 
+
+list1=["a","b","c"]
+list2=[1,2,3]
+list3=list1+list2
+print(list3)
+
+#### python list method
+append():add the element in the end of the list 
+clear(); remove the all element from the list empty the list like list still remain but content remove from list 
+
+copy(): return the copy of the list 
+count(): return the number of element with the specified value 
+extend(): add the element of the another list end of the current list 
+index(): return the index of the first element with the specified value 
+insert() ; adds the element at the specified position 
+pop(); remove the element at the specified position 
+remove(); remove the item with the specified value 
+reverse(); reverse the order of the list 
+sort(): sort the list 
+
