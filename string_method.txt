@@ -1,0 +1,91 @@
+in python string method 
+capitalize(): 
+txt="hello and welcome to my world"
+x=txt.capitalize()
+print(x)
+
+upper():
+covert sting in upeer case 
+lower():
+covert string into lower case 
+
+startswith():
+return true if string start with specified character 
+
+endsWith():
+return true if string end with particular character 
+
+boolean in python 
+False , True , every value that have some measure some value that give True 
+print(bool("Hello"))// True
+print(bool(15))//True
+print(bool(['apple","mano","papayaa"]))// True
+in fact there are not many values that evalute the False , except empty value , , such as (),{},[],"", the number 0 and the value None 
+the following will return the False 
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool([])
+bool(())
+bool({})
+
+### add list item in python 
+to add a item in the end of ist we use append 
+thislist=["apple","mango","gwawa"]
+thislist.append("orange")
+print(thislist)
+
+#### insert item
+thisList=["apple","mango","gwawa"]
+thisList.insert(1,"Manogo")
+print(thisList)
+
+to append element from another list in current list ,use extend()
+
+thisList=["poonam","attul", "ajit"]
+thisList1=["mango',"pineapple","papaya"]
+thisList.extend(thisList1)
+print(thisList)
+
+### add any iterable 
+the extend() method does not have the append lists, you can add any iterable objects (tuples, sets, dictionary , etc)
+thisList=["apple","banana","gwawa"]
+thisTupple1=("kiwi","orange")
+thisList.extend(thisTupple1)
+print(thisList)
+
+### remove method 
+thisList=["apple","banana","cherry","kiwi"]
+thisList.remove("banana")
+print(thisList)
+
+### remove specify index
+
+the pop() mehod is used to remove specified index element 
+
+thisList=["apun","hi","bhagwan']
+thisList.pop(1)
+print(thisList)
+
+### and if you do not specify any index then by default pop remove last element 
+thisList=["apun","hi","bhagwan']
+thisList.pop()
+print(thisList)
+
+#### del keyword ; the del keyword also remove specify index element 
+thisList=["apun","hi","bhagwan']
+del thisList[1]
+print(thisList)
+
+the del keyword also delete list completly 
+thisList=["apun","hi","bhagwan']
+del thisList
+
+clear() method 
+the clear() method emptiesd the list 
+the list still remain but it has no content 
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
