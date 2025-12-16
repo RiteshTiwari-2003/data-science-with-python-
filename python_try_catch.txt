@@ -1,0 +1,31 @@
+#### python try catch 
+the try block lets you test a block of code for errors
+
+the except block lets you handle the error 
+the else block lets you execute code when there is no error 
+
+the finally block lets you execute code, regardless of the result of the try and except block 
+
+#### exception handling 
+when an error occur or exception as we call it , python will normally stop and generate an error message 
+these exceptioon can be handled suing the try statement 
+
+example:
+try:
+    print(x)
+except:
+    print("an exception handled")
+
+the try block raise an error , the except block will be executed 
+this statement print(x) raise an error because variable x is not defined 
+
+### many exception 
+you can define as many exception blocks as you want , if you want to execute a spacial block of code for 
+a spacial kind of error 
+
+try:
+    print(x)
+except NameError:
+    print("variable x is not defined ")
+except:
+    print("something else went wrong ")
