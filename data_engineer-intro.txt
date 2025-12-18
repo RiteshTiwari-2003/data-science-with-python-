@@ -131,6 +131,8 @@ optimize data flow
 ensure data reliability '
 collaborate with analyst and ml team 
 
+so i understand all thing 
+
 
 
 
