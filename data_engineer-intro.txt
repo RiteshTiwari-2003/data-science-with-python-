@@ -131,7 +131,7 @@ optimize data flow
 ensure data reliability '
 collaborate with analyst and ml team 
 
-so i understand all thing 
+so i understand all thing , this is my python data science course
 
 
 
