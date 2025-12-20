@@ -1,0 +1,73 @@
+#### what is schema on read and wehat is schema on write , what is difference between schema on read and schema on write 
+
+what is data ware house?
+a data warehouse is centralized system used to store structured , historical data from multiple sources 
+in a format optimized for fast querying , reporting analytics 
+
+it is designed for read heavy workload , support complex sql queries and help organization 
+make data driven decision 
+
+key characterstics :
+store integrated data from different sources
+optimized for analytics, not transaction 
+contains historical and  aggregated data 
+uses schema like star schema and snowflake schema 
+
+example:
+snowflake 
+google big query 
+amazon redshift 
+
+#### what is data lake ?
+a data lake is a centralized storage system that store raw data in its original format, structured , semi structured , un structured 
+at large scale .
+
+it is mainly used for data storage , exploration , advance analytics 
+
+amazon s3, azure data lake, hdfs , google cloud storage 
+
+differencebetween data lake and data ware house 
+data type:
+in data lake , structured , semi structured , un structured , raw 
+and in data warehouse cleaned , structured
+
+schema : 
+in data lake schema on read and in data warehouse schema on write 
+
+purpose:
+in data lake storage and exploration in data warehouse analytics and reporting 
+
+cost:
+low cost storage in data lake and in data warehouse higher cost 
+
+query performance :
+slower in data lake (need processing ) and in data warehouse fast (optimized)
+
+users:
+data engineer , data scientist in data lake 
+analyst , buisness user in data warehouse 
+
+example:
+data lake : amazon s3, azure data lake , hdfs , google cloud storage 
+data ware house : snowflake , redshift , bigquery
+
+### schema on write and schema on read 
+
+schema on write means the schema is defined before data is stored 
+data is validated , cleaned and transformed before losding into storage 
+
+.. used in data warehouse 
+.. ensure high quality data 
+.. less flexible for changing data 
+
+exampe ; snowflake , redshift 
+
+### schema on read :
+means the schema is applied when the data is read or queried , not at storage time .
+raw data stored first and sturcture is define later during analysis 
+
+.. used in data lake 
+.. very flexible 
+..  suitable for large and diverse data .
+
+exampe ; amazon s3, azure data lake , hdfs , google cloud storage 
