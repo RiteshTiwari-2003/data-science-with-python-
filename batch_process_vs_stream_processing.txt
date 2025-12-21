@@ -1,0 +1,52 @@
+### batch processing or stream processing 
+
+batch processing processes large valume of data at fixed intervals (for example, hourly, monthly , yearly) .
+data is collected over time , stored and then processed together as a batch 
+
+suitable for historical data 
+const effective 
+slightly delay in data availability 
+
+example ; daily sales report generated using glue and spark 
+
+stream processing processes data in real time or near real time as it is generated '
+each eventy is processed imideatly or with in second 
+
+used when low latency is requered 
+ideal for real time analytics 
+more complex and resource intensive 
+
+example ;real time clickstream or fraud detection using kafka / aws kinesis 
+
+one line interview summary :
+batch processing handle data in scheduled chunks , while stream processing handles data continuously in real time .
+
+#### what are fact table and dimension table ?
+in a data warehouse , data is organized using fact table and dimesion table to support efficient analysis 
+
+fact table 
+
+fact table store quantitative , measurable data related to business process 
+contain metrics (number)
+ususally very large 
+contain forign key that links to dimesion table 
+
+exampe of fact table :
+sales amount 
+quantity sold 
+revenue 
+number of transaction
+
+#### dimension table :
+a dimesion table store descriptive , contexual information that explain fact 
+
+contains attribute 
+smaller in size 
+used in filtering , grouping , and labeling data 
+
+example of dimesions:
+customer (name, age, location )
+product(category , brand )
+date(day , month ,year)
+
+fact table store business metrics , while dimension table store discriptive information use to analize those metrics 
