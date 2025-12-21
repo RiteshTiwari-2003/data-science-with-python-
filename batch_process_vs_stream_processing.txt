@@ -107,3 +107,80 @@ one line interview summary::
 apache airflow is used to orchestrate and schedule data pipeline by managing task dependencies 
 execution , monitoring and retries in a scalable way 
 
+### what is dag in apache airflow 
+a dag is directed acyclic graph in apache airflow is a logical representation of workflow that define tasks 
+and their execution orders
+
+directed : task have a specific direction of execution 
+acyclic : no task can depend on itself (no loop)
+graph : task are connected beased on dependencies 
+
+each node represent a task, and edge represent dependencies between tasks .
+
+#### why dag is importent ::
+control task execution order 
+manage dependencies 
+enable parallel execution 
+improve pipeine reiability 
+
+### what is operator and sensor and hooks in airflow?
+in apache airflow , operators , sensors , and hooks are core component used to build and manage workflow 
+
+### operator :
+operator define what task need to be executed in dag 
+
+they perform a specific action 
+each task in dag is an instance of operator 
+
+example ; PythonOperator:
+runs python code 
+
+bashOperator: runs shell command 
+
+EmailOperator:  sends mail 
+
+interview line : operator define actual work to be done in task 
+
+### sensors :
+sensors are a spacial type of operator that wait for a condition to be met before moving forward 
+
+they keep cheacking untill a condition is true 
+commonly used to wait for data availability 
+example :
+S3KeySensor:
+wait for a file in S3 
+ExternalTaskSensor:
+wait for another DAG/task 
+
+interview line :
+sensor pause execution unitl a specific condition is satisfied 
+
+Hooks :
+Hooks provide a connection interface to external system 
+handle authntication and connection .
+used by operator and sensor 
+
+example :
+PostgresHook
+S3Hook
+Snowflakehook
+
+hooks manage connection to external system and are used internally by operator and sensor 
+
+one line interview summary :
+operator do work , sensor wait for condition , and hook manage connection to external system 
+
+#### explain task dependencies in airflow?
+task dependencies in airflow define the order in which task are executed with in a dag 
+they ensure task run only after its upstream task have completed successfully 
+
+how dependencies are define 
+1. using bit shift operator :
+task_a>>task_b (task_a run before task_b)
+task_c << task_d (task_d run before task_c)
+
+2. using set_upstream() set_downStream()
+
+task_b.set_upstream(task_a)
+task_a.downstream(task_b)
+
