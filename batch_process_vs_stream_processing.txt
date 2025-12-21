@@ -89,3 +89,21 @@ simple for star schema and complex for snowflake schema
 
 storage :
 more for star schema  and less for snowflake schema 
+
+#### apache airflow 
+apache airflow is an open source workflow orchestration tool  used to schedule, monitor and manage data pipelines 
+its allow data engineer to define workflow as dags (directed acyclic graph ) , where task and their dependencies , are clearly defined
+and executed in correct order 
+
+whyapach airflow is used?
+workflow orchestration :
+manage complex elt/etl pipeline 
+task scheduling : runs job at specific intervals 
+dependency management : ensure task run in correct order 
+monitoring and retries : handle failures, retries, and alerts
+scalabilities: support large , complex data workflow 
+
+one line interview summary::
+apache airflow is used to orchestrate and schedule data pipeline by managing task dependencies 
+execution , monitoring and retries in a scalable way 
+
