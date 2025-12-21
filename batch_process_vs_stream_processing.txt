@@ -50,3 +50,42 @@ product(category , brand )
 date(day , month ,year)
 
 fact table store business metrics , while dimension table store discriptive information use to analize those metrics 
+
+
+#### star schema and snowflake schema 
+
+star schema and snowflake schema are data modeling techniques used in data warehouse to organize fact and dimesion table 
+
+star schema 
+a central fact table is directly connected to multiple denortmalized dimension table , forming a star like structure 
+
+key point :
+simple design 
+faster query performance 
+fewer joins 
+easy to understand 
+
+best for ; reporting and bi queries 
+
+#### snowflake schema 
+in snowflake schema , dimension table normalized into multiple related table , creating a snowflake like structure 
+
+key point : more complex design 
+require more joins 
+saves storage space 
+better for complex dimension 
+
+best for ; complex dimension management 
+
+quick comparison :
+structure :
+star schema has denormalized dimensions and snowflake shema has normalized dimensions 
+
+query speed: 
+star schema 's query speed is faster whie snowflake schema query speed slow 
+
+complexity :
+simple for star schema and complex for snowflake schema 
+
+storage :
+more for star schema  and less for snowflake schema 
