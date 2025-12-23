@@ -208,4 +208,7 @@ alert can also be sent on sla misses
 uses sla (service level agreement) to check delay in task 
 trigger alert when tasks exceed expected execution dtime 
 
-5
+5. external monitoring :
+export metrics to tools like prometheus , grafana , cloudwatch 
+
+monitor scheduler health , task duration , failure rate 
