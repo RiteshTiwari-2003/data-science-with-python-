@@ -184,4 +184,28 @@ task_c << task_d (task_d run before task_c)
 task_b.set_upstream(task_a)
 task_a.downstream(task_b)
 
-banku bhaiya kabhi na hare
+#####    how do you monitor airflow pipeline?
+airflow pipelien are monitered using a combination of the airflow ui , logs, alert, and external monitoring tools to ensure 
+
+reliability and quick failure detection 
+
+1. airflow ui (primary monitoring tools):
+view dag run status (success,failed,running)
+track task level states
+check execution time and retries 
+identify bottlenecks using the graph view and gantt view 
+
+2. logs and debuggin :
+each task generate detailed logs 
+logs help to identify data issues , timeout error , or connection failure 
+logs are accessable directly from airflow ui 
+
+3. alert and notification :
+configure email and slack alerts on task/dag failure 
+alert can also be sent on sla misses
+
+4. sla monitoring :
+uses sla (service level agreement) to check delay in task 
+trigger alert when tasks exceed expected execution dtime 
+
+5
