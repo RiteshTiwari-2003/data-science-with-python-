@@ -212,3 +212,5 @@ trigger alert when tasks exceed expected execution dtime
 export metrics to tools like prometheus , grafana , cloudwatch 
 
 monitor scheduler health , task duration , failure rate 
+
+vardian.ai , amazon , flipkart, xone6
