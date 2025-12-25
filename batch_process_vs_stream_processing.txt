@@ -214,3 +214,4 @@ export metrics to tools like prometheus , grafana , cloudwatch
 monitor scheduler health , task duration , failure rate 
 
 vardian.ai , amazon , flipkart, xone6
+aws s3 , aws glue 
