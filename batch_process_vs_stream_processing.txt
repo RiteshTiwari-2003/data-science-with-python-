@@ -217,3 +217,5 @@ vardian.ai , amazon , flipkart, xone6
 aws s3 , aws glue 
 
 aws lamda , aws athena , aws glue
+
+azure databricks and redshift spectrum and apache spark in apache spark ttransformation and action
