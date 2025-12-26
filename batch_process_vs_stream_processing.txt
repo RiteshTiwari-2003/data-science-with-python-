@@ -215,3 +215,5 @@ monitor scheduler health , task duration , failure rate
 
 vardian.ai , amazon , flipkart, xone6
 aws s3 , aws glue 
+
+aws lamda , aws athena 
