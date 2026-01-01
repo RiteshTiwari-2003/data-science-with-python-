@@ -223,3 +223,6 @@ redshift spectrum , amazon redshift , snowflake both are data ware house where s
 
 what si node js ?
 nodejs is basically provide a run time envoirment for javascript outside of browser or on server
+
+what is mongo db?
+mongo db is a no sql data base a document type storage which basically use for storage of unstructured data 
