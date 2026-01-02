@@ -226,3 +226,5 @@ nodejs is basically provide a run time envoirment for javascript outside of brow
 
 what is mongo db?
 mongo db is a no sql data base a document type storage which basically use for storage of unstructured data 
+sql is basically for structrued data and and no sql for unstrucutrued data , and sql database or mysql database use for structrued data store and 
+mongo db is use for storage of unstructured data 
